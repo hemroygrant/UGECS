@@ -1,0 +1,40 @@
+.navbar-bg-color {
+  background-color: #154734; }
+
+.header-bg-color {
+  background-color: #F1EDE3;
+  color: #154734; }
+
+.footer-color {
+  background-color: #154734; }
+
+.login-header-color {
+  background-color: #154734;
+  border-bottom: #F1EDE3 3px solid; }
+
+#login-section {
+  background: url("../img/login-bg.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px; }
+  #login-section .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    width: 100%;
+    min-height: 700px; }
+  #login-section .fa {
+    color: #154734;
+    background: #fff;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 30px; }
+
+.login-box {
+  background-color: #154734;
+  color: #F1EDE3; }
+
+#login-card {
+  background-color: #154734; }
+
+form {
+  font-size: 12px; }

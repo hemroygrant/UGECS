@@ -1,0 +1,54 @@
+$primary-color-dark:   #154734;
+$primary-color:        #388E3C;
+$secondary-color:      #4CAF50;
+$primary-color-light:  #C8E6C9;
+$primary-color-text:   #FFFFFF;
+$accent-color:         #FFEB3B;
+$primary-text-color:   #212121;
+$secondary-text-color: #757575;
+$divider-color:        #F1EDE3;
+// $divider-color:        #BDBDBD;
+
+.navbar-bg-color{
+    background-color: $primary-color-dark;
+}
+.header-bg-color{
+    background-color: $primary-text-color;
+    color: $primary-color-dark;
+}
+.footer-color{
+    background-color: $primary-color-dark;
+}
+.login-header-color{
+    background-color: $primary-color-dark;
+    border-bottom: $divider-color 3px solid;
+}
+#login-section{
+    background: url("../img/login-bg.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+    .dark-overlay{
+        background-color: rgba(0,0,0,0.7);
+        position: absolute;
+        width: 100%;
+        min-height: 700px;
+    }
+    .fa{
+        color: $ug-green;
+        background: #fff;
+        padding: 4px;
+        border-radius: 5px;
+        font-size: 30px;
+    }
+}
+.login-box{
+    background-color: $ug-green;
+    color: $ug-light-brown;
+}
+#login-card{
+    background-color: $primary-color-dark;
+}
+form{
+    font-size: 12px;
+}
